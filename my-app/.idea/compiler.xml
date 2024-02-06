@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-gateway" />
         <module name="microservice-students" />
+        <module name="microservice-course" />
         <module name="microservice-eureka" />
         <module name="microservice-configserver" />
       </profile>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="microservice-configserver" options="-parameters" />
+      <module name="microservice-course" options="-parameters" />
       <module name="microservice-eureka" options="-parameters" />
       <module name="microservice-gateway" options="-parameters" />
       <module name="microservice-students" options="-parameters" />
