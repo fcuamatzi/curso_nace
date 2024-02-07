@@ -1,0 +1,8 @@
+docker run -itd   -p 5433:5432   -v /desarrollo/curso_nace/curso_nace/datos_courses/data:/var/lib/postgresql/data   --name posgres_courses   -e PGDATA=/var/lib/postgresql/data/pgdata   -e POSTGRES_PASSWORD=Lcg290697#   -e POSTGRES_DB=coursesdb   -e POSTGRES_USER=postgres   postgres:16
+
+
+
+docker run -itd   -p 3307:3306   -v /desarrollo/curso_nace/curso_nace/datos_students/mysql:/var/lib/mysql   --name mysql_students   -e MYSQL_ROOT_PASSWORD=Lcg290697#   -e MYSQL_DATABASE=students   mysql:8.3
+
+
+
